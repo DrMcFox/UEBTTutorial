@@ -132,8 +132,8 @@ Your task is to copy the following three code snippets into the body of their de
 
   <summary> Click here to see the Steering Service code snippet </summary>
   <blockquote>
-  In Visual Studio, open the `BTSteeringService.cpp` file from the Solution Explorer.
-  Copy and paste the following code snippet into the body of `
+  In Visual Studio, open the <mark>BTSteeringService.cpp</mark> file from the Solution Explorer.
+  Copy and paste the following code snippet into the body of <mark>void UBTSteeringService::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory, float DeltaSeconds)</mark> method.
 
 
   ```c++
@@ -179,8 +179,8 @@ Your task is to copy the following three code snippets into the body of their de
 
   <summary> Click here to see the Steering Task code snippet </summary>
   <blockquote>
-  In Visual Studio, open the `BTTaskSteerVehicle.cpp` file from the Solution Explorer.
-  Copy and paste the following code snippet into the body of `
+  In Visual Studio, open the <mark>BTTaskSteerVehicle.cpp</mark> file from the Solution Explorer.
+  Copy and paste the following code snippet into the body of <mark>EBTNodeResult::Type UBTTaskSteerVehicle::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)</mark> method.
 
   ```c++
   AAIWheeledVehicleController* AIController = Cast<AAIWheeledVehicleController>(OwnerComp.GetAIOwner());
@@ -210,8 +210,8 @@ Your task is to copy the following three code snippets into the body of their de
 
   <summary> Click here to see the Vehicle Throttle Task code snippet </summary>
   <blockquote>
-  In Visual Studio, open the `BTTaskThrottle.cpp` file from the Solution Explorer.
-  Copy and paste the following code snippet into the body of `
+  In Visual Studio, open the <mark>BTTaskThrottle.cpp</mark> file from the Solution Explorer.
+  Copy and paste the following code snippet into the body of <mark>EBTNodeResult::Type UBTTaskThrottle::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)</mark> method.
   
   ```c++
   AAIWheeledVehicleController* AIController = Cast<AAIWheeledVehicleController>(OwnerComp.GetAIOwner());
